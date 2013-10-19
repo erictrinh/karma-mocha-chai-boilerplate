@@ -17,4 +17,6 @@ module.exports = function(grunt) {
     }
     // run grunt karma:unit:start watch
   });
+
+  grunt.registerTask('test', ['karma:unit:start', 'watch']);
 };
