@@ -15,7 +15,6 @@ module.exports = function(grunt) {
         tasks: ['karma:unit:run'] //NOTE the :run flag
       }
     }
-    // run grunt karma:unit:start watch
   });
 
   grunt.registerTask('test', ['karma:unit:start', 'watch']);
