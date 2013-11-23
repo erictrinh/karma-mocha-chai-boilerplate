@@ -11,7 +11,7 @@ module.exports = function(grunt) {
     watch: {
       //run unit tests with karma (server needs to be already running)
       karma: {
-        files: ['app/scripts/*.js', 'test/spec/**/*.js'],
+        files: ['app/**/*.js', 'test/**/*.js'],
         tasks: ['karma:unit:run'] //NOTE the :run flag
       }
     }
